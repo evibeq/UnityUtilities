@@ -1,4 +1,5 @@
-//Script to be attached to the camera. Based on https://assetstore.unity.com/packages/tools/physics/grab-it-105735
+// Script to be attached to the camera. Based on https://assetstore.unity.com/packages/tools/physics/grab-it-105735
+// Create a layer to assign to objects that can be grabbed and attach a rigidbody to them. Set a mode for interpolation to avoid jittering.
 using UnityEngine;
 
 [System.Serializable]
